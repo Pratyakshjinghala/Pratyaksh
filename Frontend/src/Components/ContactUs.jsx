@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import {FaLinkedinIn, FaPhoneAlt, FaEnvelope, FaGithub } from 'react-icons/fa'; // Added social icons, phone, and envelope
 import myimage from '../assets/photo2.png'
-import { SiX } from 'react-icons/si';
+
 
 
 const ContactUs = () => {

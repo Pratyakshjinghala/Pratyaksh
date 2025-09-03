@@ -14,7 +14,11 @@ connectDB();
 const app = express();
 
 // Enable CORS for all routes
-app.use(cors({ origin: "https://pratyaksh-seven.vercel.app/", credentials: true }));
+app.use(cors({
+  origin: "https://pratyaksh-seven.vercel.app", // your frontend domain
+  methods: ["GET", "POST"], // add others if needed
+  allowedHeaders: ["Content-Type", "Authorization"]
+}));
 
 app.use(express.json());
 
