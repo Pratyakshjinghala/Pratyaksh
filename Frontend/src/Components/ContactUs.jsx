@@ -30,7 +30,7 @@ const ContactUs = () => {
     
     try {
       // 保留您现有的API调用
-      const response = await axios.post('http://localhost:5000/api/contact', formData);
+      const response = await axios.post('https://pratyaksh-4tvu.onrender.com/api/contact', formData);
       if (response.status === 200) {
         setSubmitStatus({ success: true, message: '✅ Message sent successfully!' });
         setFormData({ name: '', email: '', subject: '', message: '' });
