@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import p1 from "../assets/p1.png"
+import p2 from "../assets/p2.png"
 import {
   FaReact,
   FaBootstrap,
@@ -73,7 +75,7 @@ const PersonalProjects = () => {
     title: "HealthLife – Online Doctor Consultation Platform",
     description:
       "A healthcare consultation website where patients can book appointments and consult doctors online. Includes doctor listings, patient scheduling, secure consultations, and a user-friendly healthcare-focused UI.",
-    image: "/healthlife.png", // ← replace with your HealthLife image path
+    image: p1, // ← replace with your HealthLife image path
     technologies: [
       { name: "React", icon: <FaReact className="text-cyan-400" /> },
       { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
@@ -83,7 +85,7 @@ const PersonalProjects = () => {
     ],
     status: "Completed",
     date: "Aug 2025 - Sep 2025",
-    link: "#",
+    link: "https://doctorfrontnew.vercel.app/",
   },
 
   {
@@ -91,7 +93,7 @@ const PersonalProjects = () => {
     title: "EduConsult – Student & Teacher Consultation Platform",
     description:
       "A consultation platform connecting students with teachers for guidance, mentorship, and academic consulting. Features include expert profiles, booking sessions, and structured knowledge-sharing workflows.",
-    image: "/educonsult.png", // ← replace with your EduConsult image path
+    image: p2, // ← replace with your EduConsult image path
     technologies: [
       { name: "React", icon: <FaReact className="text-cyan-400" /> },
       { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
@@ -102,7 +104,7 @@ const PersonalProjects = () => {
     ],
     status: "Completed",
     date: "Sep 2025 - Nov 2025",
-    link: "#",
+    link: "https://educonsult-1.onrender.com/",
   },
 ];
 
