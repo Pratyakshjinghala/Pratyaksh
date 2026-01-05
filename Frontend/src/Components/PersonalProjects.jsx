@@ -32,41 +32,80 @@ const PersonalProjects = () => {
   };
 
   const projects = [
-    {
-      id: 1,
-      title: "IT Company Portfolio Website",
-      description:
-        "A modern and responsive portfolio website for an IT company showcasing their services, team, and projects. Features include animated sections, service cards, and a contact form with validation.",
-      image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1473&q=80",
-      technologies: [
-        { name: "React", icon: <FaReact className="text-cyan-400" /> },
-        { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
-        { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
-      ],
-      status: "Completed",
-      date: "Jan 2023",
-      link: "https://webarc-nu.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "SPTraveler - Flight Booking Platform",
-      description:
-        "An ongoing flight booking and travel platform that allows users to search for flights, compare prices, and book tickets. Features include user authentication, payment integration, and personalized travel recommendations.",
-      image:
-        "https://images.unsplash.com/photo-1436491865332-7a61a109cc11?auto=format&fit=crop&w=1474&q=80",
-      technologies: [
-        { name: "React", icon: <FaReact className="text-cyan-400" /> },
-        { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
-        { name: "Node.js", icon: <FaNodeJs className="text-yellow-400" /> },
-        { name: "Express.js", icon: <SiExpress className="text-blue-400" /> },
-        { name: "Mongodb", icon: <SiMongodb className="text-green-400" /> },
-      ],
-      status: "Ongoing",
-      date: "Mar 2023 - Present",
-      link: "https://travel-beta-nine.vercel.app/",
-    },
-  ];
+  {
+    id: 1,
+    title: "IT Company Portfolio Website",
+    description:
+      "A modern and responsive portfolio website for an IT company showcasing their services, team, and projects. Features include animated sections, service cards, and a contact form with validation.",
+    image:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1473&q=80",
+    technologies: [
+      { name: "React", icon: <FaReact className="text-cyan-400" /> },
+      { name: "Bootstrap", icon: <FaBootstrap className="text-purple-600" /> },
+      { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
+    ],
+    status: "Completed",
+    date: "Jan 2023",
+    link: "https://webarc-nu.vercel.app/",
+  },
+
+  {
+    id: 2,
+    title: "SPTraveler - Flight Booking Platform",
+    description:
+      "An ongoing flight booking and travel platform that allows users to search for flights, compare prices, and book tickets. Features include user authentication, payment integration, and personalized travel recommendations.",
+    image:
+      "https://images.unsplash.com/photo-1436491865332-7a61a109cc11?auto=format&fit=crop&w=1474&q=80",
+    technologies: [
+      { name: "React", icon: <FaReact className="text-cyan-400" /> },
+      { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
+      { name: "Node.js", icon: <FaNodeJs className="text-yellow-400" /> },
+      { name: "Express.js", icon: <SiExpress className="text-blue-400" /> },
+      { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
+    ],
+    status: "Ongoing",
+    date: "Nov 2025 - Present",
+    link: "https://travel-beta-nine.vercel.app/",
+  },
+
+  {
+    id: 3,
+    title: "HealthLife – Online Doctor Consultation Platform",
+    description:
+      "A healthcare consultation website where patients can book appointments and consult doctors online. Includes doctor listings, patient scheduling, secure consultations, and a user-friendly healthcare-focused UI.",
+    image: "/healthlife.png", // ← replace with your HealthLife image path
+    technologies: [
+      { name: "React", icon: <FaReact className="text-cyan-400" /> },
+      { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
+      { name: "Node.js", icon: <FaNodeJs className="text-yellow-400" /> },
+      { name: "Express.js", icon: <SiExpress className="text-blue-400" /> },
+      { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
+    ],
+    status: "Completed",
+    date: "Aug 2025 - Sep 2025",
+    link: "#",
+  },
+
+  {
+    id: 4,
+    title: "EduConsult – Student & Teacher Consultation Platform",
+    description:
+      "A consultation platform connecting students with teachers for guidance, mentorship, and academic consulting. Features include expert profiles, booking sessions, and structured knowledge-sharing workflows.",
+    image: "/educonsult.png", // ← replace with your EduConsult image path
+    technologies: [
+      { name: "React", icon: <FaReact className="text-cyan-400" /> },
+      { name: "Tailwind", icon: <SiTailwindcss className="text-sky-400" /> },
+      { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
+      { name: "Node.js", icon: <FaNodeJs className="text-yellow-400" /> },
+      { name: "Express.js", icon: <SiExpress className="text-blue-400" /> },
+      { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> },
+    ],
+    status: "Completed",
+    date: "Sep 2025 - Nov 2025",
+    link: "#",
+  },
+];
+
 
   return (
     <div id="project" className="w-full bg-[#0a192f] py-16 px-6 sm:px-10">

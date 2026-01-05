@@ -142,20 +142,20 @@ const WorkExperience = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white">
-                      Front-end Developer
+                      Full Stack Developer
                     </h3>
-                    <p className="text-cyan-100">WEBARCLIGTH | INTERN</p>
+                    <p className="text-cyan-100">WEBARCLIGTH </p>
                   </div>
                 </div>
 
                 <div className="flex items-center mb-4 text-white">
                   <FaCalendarAlt className="mr-3 text-cyan-200" />
-                  <span>JUNE 2025 - SEPT</span>
+                  <span>JUNE 2023 - SEPT 2025</span>
                 </div>
 
                 <div className="flex items-center mb-6 text-white">
                   <FaMapMarkerAlt className="mr-3 text-cyan-200" />
-                  <span>REMOTE</span>
+                  <span>Hybrid</span>
                 </div>
 
                 <button className="w-full bg-white text-white font-bold py-3 px-4 rounded-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105">
